@@ -1,4 +1,6 @@
 // Binary to Decimal
+
+
 public class Binary{
    
     public static void binToDec(int binNum){
