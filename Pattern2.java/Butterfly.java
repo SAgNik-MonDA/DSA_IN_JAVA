@@ -1,7 +1,10 @@
 public class Butterfly{
+    
     public static void butterfly(int n){
+        
         // 1st half
         for(int i=1;i<=n;i++){
+            
             // starts-i
             for(int j=1;j<=i;j++){
                 System.out.print("*");
