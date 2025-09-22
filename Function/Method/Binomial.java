@@ -1,5 +1,7 @@
 public class Binomial{
+    
     public static int factorial(int n){
+        
       int f=1;
       for(int i=1;i<=n;i++){
         f=f*i;
@@ -16,7 +18,9 @@ public class Binomial{
         return bincoff;
     }
     public static void main(String[] args) {
+        
         // int product=factorial(4);
+        
         System.out.println(binomial(5,2));
     }
 }
