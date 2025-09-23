@@ -1,6 +1,7 @@
 public class Diamond{
     
     public static void diamond(int n){
+        
         // 1st half
         for(int i=1;i<=n;i++){
             // spaces
