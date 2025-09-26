@@ -1,5 +1,7 @@
 public class Binary{
+    
     public static int binary(int numbers[],int key){
+        
         int start=0;
         int end=numbers.length-1;
         while(start<=end){
