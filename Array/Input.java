@@ -1,8 +1,7 @@
-import java.util.*;
 public class Input{
     public static void main(String[] args) {
         int marks[]=new int[150];
-        Scanner sc=new Scanner(System.in);
+        // Scanner sc=new Scanner(System.in);
         System.out.println("length of array = "+marks.length);
         // System.out.println("enter marks ");
         // marks[0]=sc.nextInt();
