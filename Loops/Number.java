@@ -33,7 +33,7 @@ import java.util.*;
 public class Number{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("enter range : ");
+        System.out.print("enter range : ");
         int n=sc.nextInt();
         int counter=1;
         int sum=0;
@@ -41,7 +41,7 @@ public class Number{
             sum=sum+counter;
             counter++;
         }
-          System.out.print("sum is : "+sum+ " ");
+          System.out.print("sum is : " +sum+ " ");
     }
     
 }

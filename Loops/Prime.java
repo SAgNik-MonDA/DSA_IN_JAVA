@@ -13,6 +13,7 @@ public class Prime{
             if(n%i==0){
                 prime=false;
             }
+        }
         
         if(prime==true){
             System.out.println("n is prime");
@@ -21,7 +22,7 @@ public class Prime{
             System.out.println("n is not prime");
 
         }
-        }
+        
     }
 }
 }
