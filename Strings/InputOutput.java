@@ -1,13 +1,13 @@
 
-
+import java.util.*;
 public class InputOutput{
 
-    public static void printLetters(String str){
-        for(int i=0;i<str.length();i++){
-            System.err.print(str.charAt(i)+ " ");
-        }
-        System.err.println("");
-    }
+    // public static void printLetters(String str){
+    //     for(int i=0;i<str.length();i++){
+    //         System.err.print(str.charAt(i)+ " ");
+    //     }
+    //     System.err.println("");
+    // }
 
 
     public static void main(String[] args) {
@@ -15,10 +15,10 @@ public class InputOutput{
         // String str2 = new String("xyz");
 
 
-        // Scanner sc = new Scanner(System.in);
-        // String name;
-        // name=sc.nextLine();
-        // System.err.println(name);
+        Scanner sc = new Scanner(System.in);
+        String name;
+        name=sc.nextLine();
+        System.err.println(name);
 
 
         // Find out length
@@ -29,17 +29,17 @@ public class InputOutput{
 
         // Concatenation
 
-        String FristName = "Sagnik";
-        String LastName = "Mondal";
-        String FullName = FristName + " "+ LastName;
+        // String FristName = "Sagnik";
+        // String LastName = "Mondal";
+        // String FullName = FristName + " "+ LastName;
 
-        System.err.println(FullName);
+        // System.err.println(FullName);
 
 
         // Find String Character
-        System.err.println(FullName.charAt(0));
+        // System.err.println(FullName.charAt(0));
 
-        printLetters(FullName);
+        // printLetters(FullName);
 
 
         
