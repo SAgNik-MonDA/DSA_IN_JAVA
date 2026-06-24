@@ -1,9 +1,9 @@
 public class Method_Overriding{
     public static void main(String[] args) {
-        // Deer D = new Deer();
-        Animal A = new Animal();
-        A.eat();
-        // D.eat();
+        Deer D = new Deer();
+        // Animal A = new Animal();
+        // A.eat();
+        D.eat();
     }
 }
 
